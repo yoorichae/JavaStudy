@@ -53,7 +53,7 @@ public class SlotMachine extends JFrame{
 	class MyKeyAdapter extends KeyAdapter{
 		public void keyPressed(KeyEvent e) {
 			if(e.getKeyChar()==' ' || e.getKeyChar()=='\n') {	
-				//3개의 수를 (0~9)랜덤하게 발생
+				//3개의 수를 (0~4)랜덤하게 발생
 				first.setText((int)(Math.random()*5)+"");
 				second.setText((int)(Math.random()*5)+"");
 				third.setText((int)(Math.random()*5)+"");
